@@ -1,0 +1,149 @@
+
+.logo{
+    display: flex;
+    align-items: center;
+ }
+ 
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.MB{
+    margin-top: -40px;
+    margin-left: 70px;
+    font-size: 24px;
+    color: #fff;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+header {
+    padding: 20px;
+    background-color: #000;
+}
+
+.row{
+    display: flex;
+    margin: -10px; 
+}
+
+.col{
+    padding: 10px;
+    box-sizing: border-box;
+    max-width: 30%; 
+}
+
+
+.propusk{
+    padding: 30px;
+}
+
+.rpropusk{
+    padding: 60px;
+}
+
+
+.merc-karta{
+    padding-left: 50px;
+    border-radius: 16px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.merc-karta img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 16px 16px 16px 16px;
+}
+
+.PHOTOcar{
+    
+}
+
+
+/*------------------------*/
+.items__control {
+    margin-top: 12px;
+	width: 40px;
+    height: 25px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.items__current {
+    margin-top: 12px;
+}
+
+.btn{
+    margin-left: 10px ;
+}
+
+
+.price__currency {
+	margin-left: 130px;
+    margin-top:-26px;
+}
+/*------------------------*/
+
+.items {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	border-radius: 8px;
+	width: 120px;
+	display: flex;
+	font-size: 15px;
+	overflow: hidden;
+}
+
+.details {
+	position: absolute;
+    margin-left: 260px;
+	margin-top: -60px;
+	background-color: grey;
+	width: 300px;
+	height: 150px;
+	border-radius: 8px;
+}
+
+.details h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+	margin-left: 15px;
+}
+
+.details p {
+    font-size: 14.5px;
+    margin-bottom: 10px;
+	margin-left: 15px;
+} 
+
+.ord{
+margin-left: 1400px;
+margin-top: -600px;
+}
+
+/*------------------------*/
+.cart-item__title {
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+    line-height: 1.2;
+	font-weight: 600;
+
+}
+
+.cart-item__details {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.cart-item__details .price__currency {
+	font-size: 18px;
+	margin-left: 15px;
+}
+/*------------------------*/
